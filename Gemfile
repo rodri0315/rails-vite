@@ -3,6 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
+# Authentication
+gem "devise"
+
 gem "active_type"
 gem "bcrypt"
 gem "bootsnap", require: false
