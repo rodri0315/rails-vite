@@ -21,8 +21,13 @@
 # model remove the "{}" from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
+
+# comment out so we don't get error:
+# constraint "index_users_on_email"
+# DETAIL:  Key (email)=() already exists.
+
+# one: {}
 # column: value
 #
-two: {}
+# two: {}
 # column: value
